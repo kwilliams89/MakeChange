@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    tools:context="com.example.kevin.cs3270a5.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/containerChangeResults"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/containerChangeButtons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/containerChangeActions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+    </FrameLayout>
+</LinearLayout>

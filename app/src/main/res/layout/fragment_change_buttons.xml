@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.kevin.cs3270a5.ChangeButtons">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/btnsRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <Button
+                android:id="@+id/btnFiftyDollar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="$50" />
+
+            <Button
+                android:id="@+id/btnTwentyDollar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="$20" />
+
+            <Button
+                android:id="@+id/btnTenDollar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="$10" />
+
+            <Button
+                android:id="@+id/btnFiveDollar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="$5" />
+
+            <Button
+                android:id="@+id/btnOneDollar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="$1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/btnsRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <Button
+                android:id="@+id/btnFiftyCent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=".50" />
+
+            <Button
+                android:id="@+id/btnQuarter"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=".25" />
+
+            <Button
+                android:id="@+id/btnDime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=".10" />
+
+            <Button
+                android:id="@+id/btnNickel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=".05" />
+
+            <Button
+                android:id="@+id/btnPenny"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=".01" />
+        </TableRow>
+
+    </TableLayout>
+</FrameLayout>
